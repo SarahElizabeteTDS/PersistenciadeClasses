@@ -1,8 +1,8 @@
 <?php
 
-require_once("Conexao.php");
+include "Conexao.php";
 
-class CriaClasses
+class CriaClasses1
 {
     private $tbBanco = "Tables_in_Enderecos";
     private $con;
@@ -31,4 +31,4 @@ class CriaClasses
     }   
 }
 
-(new CriaClasses())->ClassesModel();
+(new CriaClasses1())->ClassesModel();
